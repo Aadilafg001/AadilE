@@ -78,15 +78,15 @@ def Style_profaisor(z):
 
 
 def youtube():
-	Style_profaisor("  please seed me friend request :) Thank you")
+	Style_profaisor("  I am you friend Emran Aadil :) Thank you")
 	os.system("https://www.facebook.com/hamza.aadil.391")
 	menu()
 	
 #MY Facebook grope
 
 def youtube():
-	Style_profaisor("  please Join To facebook grope :) Thank you")
-	os.system("https://www.facebook.com/groups/890374404870466/?ref=share")
+	Style_profaisor("  And some people call me Aajiza halak :) Thank you")
+	os.system("https://www.facebook.com/hamza.aadil.391")
 	
 	
 back = 0
