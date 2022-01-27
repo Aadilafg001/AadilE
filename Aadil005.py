@@ -77,14 +77,14 @@ def Style_profaisor(z):
 
 
 
-def  facebook():
+def youtube():
 	Style_profaisor("  please seed me friend request :) Thank you")
 	os.system("https://www.facebook.com/hamza.aadil.391")
 	menu()
 	
 #MY Facebook grope
 
-def Facebook():
+def youtube():
 	Style_profaisor("  please Join To facebook grope :) Thank you")
 	os.system("https://www.facebook.com/groups/890374404870466/?ref=share")
 	
