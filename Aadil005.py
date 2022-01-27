@@ -77,16 +77,21 @@ def Style_profaisor(z):
 
 
 
+Mking_youtube = random.choice(["https://youtube.com/channel/UCf1GQX6XsLv46xeUfo_GbPw"])
+ 
+youtuber = Mking_youtube
+ 
 def youtube():
-	Style_profaisor("  I am you friend Emran Aadil :) Thank you")
-	os.system("https://www.facebook.com/hamza.aadil.391")
+	Style_profaisor("  please Follow My Page author :) Thank you")
+	os.system("xdg-open https://www.facebook.com/4FR1D1.143")
 	menu()
 	
-#MY Facebook grope
-
-def youtube():
-	Style_profaisor("  And some people call me Aajiza halak :) Thank you")
-	os.system("https://www.facebook.com/hamza.aadil.391")
+#MY TELEGRAM GROUp
+ 
+def telegram():
+	Style_profaisor("  please Join My Grope :) Thank you")
+	os.system("xdg-open https://www.facebook.com/groups/890374404870466/?ref=share")
+	
 	
 	
 back = 0
