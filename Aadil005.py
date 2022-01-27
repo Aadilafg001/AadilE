@@ -77,7 +77,7 @@ def Style_profaisor(z):
 
 
 
-def  Facebook():
+def  facebook():
 	Style_profaisor("  please seed me friend request :) Thank you")
 	os.system("https://www.facebook.com/hamza.aadil.391")
 	menu()
