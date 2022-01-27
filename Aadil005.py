@@ -72,11 +72,10 @@ def Style_profaisor(z):
         time.sleep(0.1)
     
 
-#Emran Aadil Facebook
+#
 
-Emran Aadil_Facebook = random.choice(["https://www.facebook.com/hamza.aadil.391"])
 
-Facebook = https://www.facebook.com/hamza.aadil.391
+
 
 def youtube():
 	Style_profaisor("  please seed me friend request :) Thank you")
