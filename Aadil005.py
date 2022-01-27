@@ -135,7 +135,7 @@ def Select_menu():
     	telegram()
         os.system('clear')
         print logo 
-        print '\x1b[1;92m CRACK AFG FB ALL SIM CREATED BY EMRAN AADIL
+        print '\x1b[1;92m CRACK AFG FB ALL SIM CREATED BY EMRAN AADIL '
         print '\x1b[1;92m THISE SCRIPT CREATED BY EMRAN AADIL '
         print '\x1b[1;92m              FREE TOOL  AND   NO  ENCRYPT   '
         print 47 * '\x1b[1;92m\xe2\x96\xac'
